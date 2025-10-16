@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

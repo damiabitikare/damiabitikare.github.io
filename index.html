@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article data-testid="test-profile-card" class="profile-card">
+    <header>
+      <h2 data-testid="test-user-name">Damilola Abiola</h2>
+    </header>
+
+    <figure>
+      <img 
+        src="IMG-20220201-WA0012.jpg"
+        alt="Profile picture of Damilola" 
+        data-testid="test-user-avatar"
+      >
+    </figure>
+
+    <p data-testid="test-user-bio">
+      Writer | Tech girl in progress | Lover of good skincare and good vibes.
+    </p>
+
+    <p data-testid="test-user-time" id="time"></p>
+
+    <nav data-testid="test-user-social-links">
+      <ul>
+        <li><a href="https://x.com/damivirtuals" data-testid="test-user-social-twitter" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="" data-testid="https://www.linkedin.com/in/damilola-abiola-tikare/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/damivirtuals/" data-testid="test-user-social-instagram" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      </ul>
+    </nav>
+
+    <section data-testid="test-user-hobbies">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Writing</li>
+        <li>Watching esports</li>
+        <li>Skincare experiments</li>
+        <li>Playing videogames</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-user-dislikes">
+      <h3>Dislikes</h3>
+      <ul>
+        <li>Dishonesty</li>
+        <li>Toxic environments</li>
+        <li>Bad Wi-Fi 😩</li>
+        <li>Toxic people</li>
+      </ul>
+    </section>
+  </article>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
